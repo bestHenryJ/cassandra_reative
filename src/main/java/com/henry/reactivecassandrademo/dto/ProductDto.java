@@ -8,7 +8,6 @@ import org.springframework.data.cassandra.core.mapping.Table;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-@Table
 public class ProductDto {
     private int id;
     private String name;
